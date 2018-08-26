@@ -9,9 +9,7 @@
 title: Sam's Stats Inn
 email: basedora@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Statistics, R, Stan, data science, machine learning, anything...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://Sam-CHChiu.github.io" # the base hostname & protocol for your site
 #twitter_username: 
@@ -19,22 +17,3 @@ github_username:  Sam-CHChiu
 
 # Build settings
 markdown: kramdown
-
-# Comment provided by staticman
-comments:
-  allowedFields     : ['name', 'email', 'url', 'message']
-  branch            : "master"
-  commitMessage     : "New comment."
-  filename          : "comment-{@timestamp}"
-  format            : "yaml"
-  moderation        : true
-  path              : "src/_data/comments/{options.slug}"
-  requiredFields    : ['name', 'email', 'message']
-  transforms:
-    email           : md5
-  generatedFields:
-    date:
-      type          : "date"
-      options:
-        format      : "iso8601"
-
