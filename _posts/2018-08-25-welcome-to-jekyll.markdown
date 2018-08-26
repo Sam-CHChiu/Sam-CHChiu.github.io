@@ -25,6 +25,8 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 **MathJax Testing**
+$$E=mc^2$$ is a inline formula
+
 $$ 
 \begin{aligned} \dot{x} &= \sigma(y-x) \\ 
 \dot{y} &= \rho x - y - xz \\ 
